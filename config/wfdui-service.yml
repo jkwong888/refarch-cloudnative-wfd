@@ -1,0 +1,14 @@
+server:
+  port: 8181
+
+wfd:
+  menu:
+    url: http://wfdmenu-service/menu
+
+---
+#spring:
+#  profiles: cloud
+#eureka:
+#  instance:
+#    nonSecurePort: 80
+#    preferIpAddress: false
