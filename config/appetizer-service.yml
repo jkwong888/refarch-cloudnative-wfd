@@ -1,0 +1,24 @@
+spring:
+  sleuth:
+    sampler:
+      percentage: 1.0
+
+server:
+  port: 8081
+
+wfd:
+  appetizer:
+    order: 1
+    type: appetizer
+    menu:
+      - Hummus
+      - Crab Cakes
+      - Mozzerella Sticks
+
+---
+#spring:
+#  profiles: cloud
+#eureka:
+#  instance:
+#    nonSecurePort: 80
+#    preferIpAddress: false
